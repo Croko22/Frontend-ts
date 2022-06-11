@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 })
 
 function renderTasks(tasks: Task[]){
-    //El signo de admiracion lo hace como no opcional, esto hace que no se duplique la lista
+    //El signo de admiracion lo hace como no opcional, esto hace que no se duplique la lista.
     taskList!.innerHTML = '' //RESETEA LA LISTA, ahora extrae todo del localstorage
 
     tasks.forEach(task => {
