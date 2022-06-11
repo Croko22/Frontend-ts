@@ -72,7 +72,7 @@ function renderTasks(tasks: Task[]){
         const btnDelete = document.createElement('button')
         btnDelete.className = 'bg-red-500 px-2 py-1 rounded-md'
         btnDelete.innerText = 'Delete'
-
+        //Boton de borrar
         btnDelete.addEventListener('click', () => {
             const index=tasks.findIndex(t=>t.id === task.id)
             tasks.splice(index, 1)
